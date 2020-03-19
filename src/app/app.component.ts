@@ -28,11 +28,19 @@ export class AppComponent {
   faJava = faJava;
 
   ngOnInit(){
-    (function ($) {
-      $('#sidebarCollapse').on('click', function() {
-        $('#sidebar, #content').toggleClass('active');
+    (function($) {
+      "use strict";
+
+      $('.js-scroll-trigger').click(function() {
+        $('.navbar-collapse').collapse('hide');
       });
+
+      $('body').scrollspy({
+        target: '#sideNav'
+      });
+
     })(jQuery);
+
   }
 
 }

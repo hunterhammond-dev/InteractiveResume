@@ -36,9 +36,6 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
@@ -47,9 +44,6 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">portfolio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
       </ul>
     </div>
   </nav>
@@ -57,10 +51,6 @@
   <div class="container-fluid p-0">
 
     <app-about></app-about>
-
-    <hr class="m-0">
-
-    <app-experience></app-experience>
 
     <hr class="m-0">
 
@@ -104,40 +94,25 @@
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
+            <fa-icon [icon]="faHtml5"></fa-icon>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <fa-icon [icon]="faCss3Alt"></fa-icon>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <fa-icon [icon]="faJsSquare"></fa-icon>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
+            <fa-icon [icon]="faAngular"></fa-icon>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-react"></i>
+            <fa-icon [icon]="faNodeJs"></fa-icon>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
+            <fa-icon [icon]="faBootstrap"></fa-icon>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
+            <fa-icon [icon]="faJava"></fa-icon>
           </li>
         </ul>
 
@@ -170,14 +145,9 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">portfolio</h2>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <div>
+          <a href="https://kaanproductions.com/" target="_blank"><img src="assets/kaan.PNG" alt="kaan" style="width: 40%; height: 50%;" class="rounded portimg"></a>
+        </div>
       </div>
     </section>
 

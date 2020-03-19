@@ -8,13 +8,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AboutComponent } from './about/about.component';
-import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    ExperienceComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
